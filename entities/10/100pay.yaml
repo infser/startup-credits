@@ -44,7 +44,6 @@ offers:
               currency: USD
               minor_units: 10000000
             kind: up-to
-          applies_to: Cloud infrastructure from premier hosting partners (AWS, Google Cloud)
         - benefit_id: ben_02
           description: Subsidized quotas and elite tiers for LLM integrations, OpenAI credits, and Agentic Commerce routing frameworks
           kind: other
@@ -67,14 +66,14 @@ offers:
           - criterion_id: cri_02
             kind: manual
             reason: not-machine-evaluable
-            statement: Applicants must email startups@100pay.co with a description of the startup, website, and other relevant links including socials.
+            statement: Applicants must apply by email using the contact method on the 100Pay for Startups page, including a description of the startup, website, and other relevant links including socials.
     roles:
       terms_authority_entity_id: ent_01m1fgf3641s19yp0ghk8fhfq0
       access_operator_entity_id: ent_01m1fgf3641s19yp0ghk8fhfq0
     access:
       availability: public
       method: other
-      instructions: Open the 100Pay for Startups page and email startups@100pay.co with what your startup is about, your website, and other relevant links including socials. Applications are reviewed on a rolling basis.
+      instructions: Open the 100Pay for Startups page and apply by email using the contact method shown there. Include what your startup is about, your website, and other relevant links including socials. Applications are reviewed on a rolling basis.
       url: https://100pay.co/startups
     terms_url: https://100pay.co/startups
     source_ids:
