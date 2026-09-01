@@ -30,7 +30,7 @@ offers:
     offer_slug: 90000-free-minutes-startup-grant
     offer_slug_aliases: []
     title: 90,000 free minutes startup grant
-    summary: Eligible pre-seed to Series A voice AI startups with at least $250k in funding receive 7,500 free minutes per month for 12 months (90,000 total), plus dedicated Slack support, priority feature access, and community access. The first-party page currently notes applications are on hold.
+    summary: Eligible pre-seed to Series A voice AI startups ($250k+ funding) get 7,500 free minutes per month for 12 months (90,000 total), plus Slack support, priority features, and community access. Applications are currently on hold.
     lifecycle:
       status: active
       effective_from: 2026-09-01T23:12:00.000Z
