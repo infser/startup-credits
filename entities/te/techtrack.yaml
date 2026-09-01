@@ -60,7 +60,6 @@ offers:
           currency: USD
           minor_units: 180000
         kind: fixed
-        description: The published startup plan is an annual plan that works out to USD 150 per month.
     eligibility:
       rule:
         kind: all
