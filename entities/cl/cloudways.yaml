@@ -21,7 +21,7 @@ programs:
     program_slug: cloudways-startup-program
     program_slug_aliases: []
     title: Cloudways Startup Program
-    summary: Cloudways Startup Program offers managed hosting platform credits, monthly invoice discounts, priority support, mentorship, and startup toolkits across Build, Grow, and Expand tiers. New applications are temporarily closed with a public waitlist.
+    summary: Cloudways Startup Program offers platform credits, invoice discounts, priority support, mentorship, and toolkits across Build, Grow, and Expand tiers. New applications are waitlisted.
     source_ids:
       - src_eb7ced8d2880833450ab6061c87fbecab72fae85d56a2d363a914f2617aa9205
 offers:
@@ -30,7 +30,7 @@ offers:
     offer_slug: build-tier-15000-platform-credit
     offer_slug_aliases: []
     title: Build tier $15,000 platform credit
-    summary: "Build tier includes $15,000 Cloudways platform credit, 15% off the monthly invoice (discounted amount deducted from credits), 24x7 priority support, free Advance Support add-on worth $1,200/year, mentorship, community access, and Startup Toolkit Build. New applications are on a waitlist."
+    summary: "Build: $15,000 platform credit, 15% invoice discount (deducted from credits), 24x7 priority support, free Advance Support ($1,200/year), mentorship, and Startup Toolkit Build. Applications waitlisted."
     lifecycle:
       status: active
       effective_from: 2026-09-02T01:14:00.000Z
@@ -105,7 +105,7 @@ offers:
     offer_slug: grow-tier-25000-platform-credit
     offer_slug_aliases: []
     title: Grow tier $25,000 platform credit
-    summary: "Grow tier includes $25,000 Cloudways platform credit, 20% off the monthly invoice (discounted amount deducted from credits), 24x7 priority support, free Premium Support add-on worth $6,000/year, mentorship, Startup Toolkit Grow, and co-marketing (founder interview, case study, product spotlight). New applications are on a waitlist."
+    summary: "Grow: $25,000 platform credit, 20% invoice discount (deducted from credits), 24x7 priority support, free Premium Support ($6,000/year), mentorship, toolkit, and co-marketing. Applications waitlisted."
     lifecycle:
       status: active
       effective_from: 2026-09-02T01:14:00.000Z
@@ -180,7 +180,7 @@ offers:
     offer_slug: expand-tier-50000-platform-credit
     offer_slug_aliases: []
     title: Expand tier $50,000 platform credit
-    summary: "Expand tier includes $50,000 Cloudways platform credit, 20% off the monthly invoice (discounted amount deducted from credits), 24x7 priority support, free Premium Support add-on worth $6,000/year, mentorship, Startup Toolkit Expand, and co-marketing (founder interview, case study, product spotlight). New applications are on a waitlist."
+    summary: "Expand: $50,000 platform credit, 20% invoice discount (deducted from credits), 24x7 priority support, free Premium Support ($6,000/year), mentorship, toolkit, and co-marketing. Applications waitlisted."
     lifecycle:
       status: active
       effective_from: 2026-09-02T01:14:00.000Z
