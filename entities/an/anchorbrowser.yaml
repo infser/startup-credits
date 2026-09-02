@@ -11,7 +11,7 @@ entity:
       valid_from: 2026-09-02T13:28:00.000Z
   category: devtools-other
 profile:
-  description: Anchor Browser provides production browser infrastructure for automating workflows on real-world websites, with stealth anti-detection, captcha solving, session persistence, proxies, and multi-region concurrent browsers.
+  description: Anchor Browser provides production browser infrastructure for automating workflows on real-world websites.
   links:
     site: https://anchorbrowser.io
 sources:
@@ -22,7 +22,7 @@ programs:
     program_slug: anchorbrowser-startup-program
     program_slug_aliases: []
     title: Anchor Browser Startup Program
-    summary: Anchor Browser gives eligible production-stage startups building browser automation products 24,000 credits and full Growth tier access free for six months, plus a dedicated Slack channel with the founders and engineering team.
+    summary: Anchor Browser gives eligible production-stage startups 24,000 credits and full Growth tier access free for six months, plus a dedicated Slack channel.
     source_ids:
       - src_627826c715692988e5e00c189af6fc06af4fe245da38024932a90512b764c1fd
 offers:
@@ -31,7 +31,7 @@ offers:
     offer_slug: 24000-credits-growth-tier-free-six-months
     offer_slug_aliases: []
     title: 24,000 credits and Growth tier free for six months
-    summary: Eligible production-stage startups receive 24,000 credits and full Growth tier access free for six months, including stealth anti-detection, automatic captcha solving, session persistence, custom proxies, multi-region support, up to 200 concurrent browsers, and a dedicated Slack channel. After six months, teams may move to the published annual Growth plan ($24K/year with 24,000 credits included) or opt out.
+    summary: Eligible production-stage startups receive 24,000 credits and full Growth tier access free for six months, including stealth, captcha solving, proxies, up to 200 concurrent browsers, and a dedicated Slack channel.
     lifecycle:
       status: active
       effective_from: 2026-09-02T13:28:00.000Z
