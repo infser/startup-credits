@@ -33,7 +33,7 @@ offers:
     offer_slug: up-to-1cr-startup-perks-payment-credits
     offer_slug_aliases: []
     title: Up to ₹1 Cr in Startup Perks payment credits and benefits
-    summary: Eligible funded startups get up to ₹30L domestic and ₹20L international free payment credits (angel: ₹3L each), Magic Checkout free up to 6 months, and up to ₹50L SaaS benefits via collateral-free corporate card.
+    summary: "Eligible funded startups get up to ₹30L domestic and ₹20L international free payment credits (angel: ₹3L each), Magic Checkout free up to 6 months, and up to ₹50L SaaS benefits via collateral-free corporate card."
     lifecycle:
       status: active
       effective_from: 2026-09-02T00:14:00.000Z
