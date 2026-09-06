@@ -1,0 +1,71 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_012abbqvhwk3j5jxkp3sxv9anv
+  slug: solarlayout
+  slug_aliases:
+    - solar-layout
+  name: SolarLayout
+  domains:
+    - value: solarlayout.app
+      role: primary
+      valid_from: 2026-09-06T21:25:00.000Z
+  category: design
+profile:
+  summary: Utility-scale PV plant layout, cabling, and energy-yield design software for solar companies.
+  description: SolarLayout helps solar companies design utility-scale plants quickly, including layout, cable routing, energy yield, and exports in SolarLayout Desktop on Windows, with related BESS Desktop tooling.
+  links:
+    site: https://solarlayout.app
+sources:
+  - source_id: src_06ee01d736c2ff1dce0c9fd2f7548d18232f094ba51069060ad612f85bfbca8b
+    url: https://solarlayout.app/startups
+programs:
+  - program_id: prg_01apw7zpsk056hcehesdcqerrb
+    program_slug: solarlayout-startup-program
+    program_slug_aliases: []
+    title: SolarLayout Startup Program
+    summary: SolarLayout gives qualifying early-stage solar companies up to USD 5,000 in credits usable across SolarLayout and BESS Desktop.
+    source_ids:
+      - src_06ee01d736c2ff1dce0c9fd2f7548d18232f094ba51069060ad612f85bfbca8b
+offers:
+  - offer_id: off_01bxa9txavkf3qcdxgs0c8xf0a
+    program_id: prg_01apw7zpsk056hcehesdcqerrb
+    offer_slug: up-to-5000-usd-credits
+    offer_slug_aliases: []
+    title: Up to USD 5,000 in SolarLayout credits
+    summary: Qualifying early-stage solar companies receive up to USD 5,000 in credits usable across SolarLayout and BESS Desktop for full access to both desktop products.
+    lifecycle:
+      status: active
+      effective_from: 2026-09-06T21:25:00.000Z
+    economics:
+      benefits:
+        - benefit_id: ben_01
+          description: Up to USD 5,000 in credits usable across SolarLayout and BESS Desktop
+          kind: credit
+          value:
+            amount:
+              currency: USD
+              minor_units: 500000
+            kind: up-to
+        - benefit_id: ben_02
+          description: Full access to SolarLayout and BESS Desktop
+          kind: free-service
+          service: SolarLayout and BESS Desktop
+      consideration:
+        kind: none
+    eligibility:
+      rule:
+        criterion_id: cri_01
+        kind: manual
+        reason: not-machine-evaluable
+        statement: The applicant is an early-stage solar company.
+    roles:
+      terms_authority_entity_id: ent_012abbqvhwk3j5jxkp3sxv9anv
+      access_operator_entity_id: ent_012abbqvhwk3j5jxkp3sxv9anv
+    access:
+      availability: public
+      method: form
+      instructions: Submit the startup-program application form on SolarLayout's startups page with company name, website, work email, team size, and what you are building. SolarLayout states a response time of 5-7 business days.
+      url: https://solarlayout.app/startups
+    terms_url: https://solarlayout.app/startups
+    source_ids:
+      - src_06ee01d736c2ff1dce0c9fd2f7548d18232f094ba51069060ad612f85bfbca8b
