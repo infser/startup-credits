@@ -1,0 +1,93 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m1wg873teq7z5vvdeqb2mbbv
+  slug: legionedge
+  slug_aliases: []
+  name: LegionEdge
+  domains:
+    - value: legionedge.ai
+      role: primary
+      valid_from: 2026-09-06T23:18:00.000Z
+  category: ai-ml
+profile:
+  summary: LegionEdge builds AI-native design, code, and multi-cloud deployment tooling with research on efficient methods.
+  description: LegionEdge builds AI-native design, code, and multi-cloud deployment tooling with research on efficient methods.
+  links:
+    site: https://legionedge.ai
+sources:
+  - source_id: src_1bd096deac7b492c2369a79786a1f359fa4a2de2d32f0ef1cad8f1362f4d9a67
+    url: https://legionedge.ai/programs/startup
+programs:
+  - program_id: prg_01m1wg873v84j5ktnwjd0k93kp
+    program_slug: legionedge-startup-program
+    program_slug_aliases: []
+    title: LegionEdge Startup Program
+    summary: LegionEdge Startup Program awards up to $25k in product credits across Nokuva, Tavoc, and Foltrac for 12 months, plus engineering sessions, early access, community, and launch support, with no equity.
+    source_ids:
+      - src_1bd096deac7b492c2369a79786a1f359fa4a2de2d32f0ef1cad8f1362f4d9a67
+offers:
+  - offer_id: off_01m1wg873v8qejaf05mweqhmz4
+    program_id: prg_01m1wg873v84j5ktnwjd0k93kp
+    offer_slug: up-to-25k-product-credits-12-months
+    offer_slug_aliases: []
+    title: Up to $25k in product credits over 12 months
+    summary: Accepted early-stage teams receive up to $25k in product credits across Nokuva, Tavoc, and Foltrac for 12 months, plus architecture sessions, efficiency office hours, early access, founder community, and launch support.
+    lifecycle:
+      status: active
+      effective_from: 2026-09-06T23:18:00.000Z
+    economics:
+      benefits:
+        - benefit_id: ben_01
+          description: Up to $25,000 in product credits across Nokuva, Tavoc, and Foltrac for 12 months
+          kind: credit
+          value:
+            amount:
+              currency: USD
+              minor_units: 2500000
+            kind: up-to
+          duration:
+            kind: exact
+            value: P12M
+        - benefit_id: ben_02
+          description: 1:1 architecture reviews and monthly efficiency office hours with LegionEdge engineers
+          kind: other
+        - benefit_id: ben_03
+          description: Early access to protocol drafts, product betas, and dataset releases; founder community and launch support
+          kind: other
+      consideration:
+        kind: none
+    eligibility:
+      rule:
+        kind: all
+        rules:
+          - criterion_id: cri_01
+            kind: manual
+            reason: vendor-discretion
+            statement: Pre-seed to Series A stage.
+          - criterion_id: cri_02
+            kind: manual
+            reason: vendor-discretion
+            statement: Under $5M raised.
+          - criterion_id: cri_03
+            fact: company.employee_count
+            kind: predicate
+            operator: lt
+            statement: Fewer than 20 people on the team.
+            value:
+              type: number
+              value: 20
+          - criterion_id: cri_04
+            kind: manual
+            reason: vendor-discretion
+            statement: Building a product where AI is core, not a feature checkbox; not a previous participant in the program.
+    roles:
+      terms_authority_entity_id: ent_01m1wg873teq7z5vvdeqb2mbbv
+      access_operator_entity_id: ent_01m1wg873teq7z5vvdeqb2mbbv
+    access:
+      availability: public
+      method: form
+      instructions: Apply on the LegionEdge Startup Program page. Applications are human-reviewed, usually within a week.
+      url: https://legionedge.ai/programs/startup
+    terms_url: https://legionedge.ai/programs/startup
+    source_ids:
+      - src_1bd096deac7b492c2369a79786a1f359fa4a2de2d32f0ef1cad8f1362f4d9a67
