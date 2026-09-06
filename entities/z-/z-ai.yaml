@@ -10,10 +10,10 @@ entity:
       valid_from: 2026-09-06T22:10:00.000Z
   category: ai-ml
 profile:
-  summary: Z.ai Startups Program offers AI credits, technical support, and resources to accelerate startup growth.
-  description: Z.ai Startups Program offers AI credits, technical support, and resources to accelerate startup growth.
+  summary: Z.ai provides GLM model APIs with AI credits, technical support, and developer resources for AI-native products.
+  description: Z.ai provides GLM model APIs with AI credits, technical support, and developer resources for AI-native products.
   links:
-    site: https://startup.z.ai/
+    site: https://z.ai
 sources:
   - source_id: src_95014b84b080cd289714e360164e636d1c03c8368435dd77e95ce6c49a45b98d
     url: https://startup.z.ai/
