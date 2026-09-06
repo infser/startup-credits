@@ -46,24 +46,12 @@ offers:
               currency: EUR
               minor_units: 1000000
             kind: exact
-      consideration:
-        kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: not-machine-evaluable
-            statement: The company is a European startup that is just about getting going.
-          - criterion_id: cri_02
-            kind: manual
-            reason: not-machine-evaluable
-            statement: The company is less than three years old.
-          - criterion_id: cri_03
-            kind: manual
-            reason: not-machine-evaluable
-            statement: The company is a bootstrap company or venture-funded company and receives the credits through a venture capitalist or TwentyThree agency partners that can grant the credits.
+        criterion_id: cri_01
+        kind: manual
+        reason: not-machine-evaluable
+        statement: The company is a European bootstrap or venture-funded startup less than three years old that is just about getting going, and receives the credits through a venture capitalist or TwentyThree agency partners that can grant the credits.
     roles:
       terms_authority_entity_id: ent_01m1w607s83r4jjk913t1q0756
       access_operator_entity_id: ent_01m1w607s83r4jjk913t1q0756
