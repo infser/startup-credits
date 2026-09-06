@@ -52,7 +52,8 @@ offers:
           description: Access to enterprise-level features regardless of the selected plan
           kind: other
       consideration:
-        kind: none
+        kind: unknown
+        description: The startups page does not state a separate consideration or fee beyond applying for the program.
     eligibility:
       rule:
         criterion_id: cri_01
@@ -65,7 +66,7 @@ offers:
     access:
       availability: public
       method: form
-      instructions: Apply from the Intervue for Startups page at https://www.intervue.io/startups.
+      instructions: Apply now to get started with Intervue's startup program right away.
       url: https://www.intervue.io/startups
     terms_url: https://www.intervue.io/terms
     source_ids:
