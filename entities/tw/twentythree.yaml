@@ -11,6 +11,7 @@ entity:
       valid_from: 2026-09-06T20:20:00.000Z
   category: marketing
 profile:
+  summary: European video marketing platform for webinars, video libraries, and product storytelling.
   description: TwentyThree is a European video marketing platform for webinars, video libraries, branding, and product storytelling.
   links:
     site: https://www.twentythree.com
@@ -38,7 +39,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 10,000 Euro in TwentyThree platform credits for video marketing, webinars, and related product marketing use
+          description: 10,000 Euro in credits
           kind: credit
           value:
             amount:
@@ -54,23 +55,15 @@ offers:
           - criterion_id: cri_01
             kind: manual
             reason: not-machine-evaluable
-            statement: The company is a European startup that is just getting going.
+            statement: The company is a European startup that is just about getting going.
           - criterion_id: cri_02
-            fact: company.age_months
-            kind: predicate
-            operator: lt
+            kind: manual
+            reason: not-machine-evaluable
             statement: The company is less than three years old.
-            value:
-              type: number
-              value: 36
           - criterion_id: cri_03
             kind: manual
             reason: not-machine-evaluable
-            statement: The company is bootstrapped or venture-funded and receives the credits through a venture capitalist or TwentyThree agency partner that can grant them.
-          - criterion_id: cri_04
-            kind: manual
-            reason: vendor-discretion
-            statement: Credits are granted through TwentyThree's venture-capital or agency partners; acceptance and grant mechanics are subject to TwentyThree and partner processes.
+            statement: The company is a bootstrap company or venture-funded company and receives the credits through a venture capitalist or TwentyThree agency partners that can grant the credits.
     roles:
       terms_authority_entity_id: ent_01m1w607s83r4jjk913t1q0756
       access_operator_entity_id: ent_01m1w607s83r4jjk913t1q0756
