@@ -46,6 +46,8 @@ offers:
               currency: EUR
               minor_units: 1000000
             kind: exact
+      consideration:
+        kind: none
     eligibility:
       rule:
         criterion_id: cri_01
