@@ -10,44 +10,47 @@ entity:
       valid_from: 2026-09-06T22:10:00.000Z
   category: ai-ml
 profile:
-  summary: API platform for GLM large language models with credits, tooling, and developer resources for AI-native products.
-  description: Z.ai provides an API platform for GLM large language models, including inference access, developer tooling, and startup program resources for AI-native products.
+  summary: Z.ai Startups Program offers AI credits, technical support, and resources to accelerate startup growth.
+  description: Z.ai Startups Program offers AI credits, technical support, and resources to accelerate startup growth.
   links:
-    site: https://z.ai
+    site: https://startup.z.ai/
 sources:
   - source_id: src_95014b84b080cd289714e360164e636d1c03c8368435dd77e95ce6c49a45b98d
     url: https://startup.z.ai/
+  - source_id: src_5ae12bae4c30a85f17b95158080a2db5a6ee64aace227e225e1b727e335ce46a
+    url: https://startup.z.ai/assets/index.CVriRY19.js
 programs:
   - program_id: prg_01m1wc71fk28ea6z29trtmqfb1
     program_slug: z-ai-startups-program
     program_slug_aliases: []
     title: Z.ai Startups Program
-    summary: The Z.ai Startups Program gives approved startups free API credits of up to 1B tokens with GLM volume pricing, priority support and rate limits, community access, and early API access.
+    summary: Z.ai Startups Program offers free API credits up to 1B tokens and volume pricing on GLM, priority support and rate limits, community access, and early API access.
     source_ids:
       - src_95014b84b080cd289714e360164e636d1c03c8368435dd77e95ce6c49a45b98d
+      - src_5ae12bae4c30a85f17b95158080a2db5a6ee64aace227e225e1b727e335ce46a
 offers:
   - offer_id: off_01m1wc71fprhgbrj6j3rgmm6ks
     program_id: prg_01m1wc71fk28ea6z29trtmqfb1
     offer_slug: free-api-credits-up-to-1b-tokens
     offer_slug_aliases: []
-    title: Free API credits up to 1B tokens
-    summary: Approved startups receive free API credits of up to 1B tokens and volume pricing on GLM, plus priority support and rate limits, access to a founders community, and early API access after application review.
+    title: Free API Credits
+    summary: Get free API credits — up to 1B tokens and volume pricing on GLM — plus priority support and rate limits, exclusive community access, and early API access after application review.
     lifecycle:
       status: active
       effective_from: 2026-09-06T22:10:00.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Free API credits — up to 1B tokens and volume pricing on GLM
+          description: Get free API credits — up to 1B tokens and volume pricing on GLM — to build and scale AI-native.
           kind: other
         - benefit_id: ben_02
-          description: Dedicated technical support and priority rate limits
+          description: Access dedicated technical support and priority rate limits — and keep shipping.
           kind: other
         - benefit_id: ben_03
-          description: Access to a network of 300+ AI founders, VCs, and accelerators
+          description: Join a network of 300+ AI founders, VCs, and accelerators — together, we go further.
           kind: other
         - benefit_id: ben_04
-          description: Early access to new models and features
+          description: Early access to new models and features — evaluate, build and ship ahead of the curve.
           kind: other
       consideration:
         kind: none
@@ -56,15 +59,16 @@ offers:
         criterion_id: cri_01
         kind: manual
         reason: vendor-discretion
-        statement: Applicants complete the Z.ai Startups Program form after logging in with a Z.ai account; the vendor reviews applications and awards credits at its discretion.
+        statement: Complete the form below to apply for our startup program. Our team will review your application and get back to you soon.
     roles:
       terms_authority_entity_id: ent_01m1wc71esjbtzm2dn52w4q3ne
       access_operator_entity_id: ent_01m1wc71esjbtzm2dn52w4q3ne
     access:
       availability: public
       method: form
-      instructions: Open https://startup.z.ai/, log in with a Z.ai account to unlock the application form, and submit startup details for review.
+      instructions: Login with Z.ai account to fill and submit the application form on the Z.ai Startups Program page.
       url: https://startup.z.ai/
     terms_url: https://startup.z.ai/
     source_ids:
       - src_95014b84b080cd289714e360164e636d1c03c8368435dd77e95ce6c49a45b98d
+      - src_5ae12bae4c30a85f17b95158080a2db5a6ee64aace227e225e1b727e335ce46a
