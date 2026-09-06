@@ -22,7 +22,7 @@ programs:
     program_slug: truobox-startup-program
     program_slug_aliases: []
     title: Truobox Startup Program
-    summary: Truobox Startup Program gives early-stage startups up to $5,000 in cloud credits for 12 months across VPS, hosting, domains, and storage, with priority support and mentoring.
+    summary: Truobox Startup Program gives early-stage startups up to $5,000 in cloud credits for 12 months across VPS, hosting, domains, and storage.
     source_ids:
       - src_ba19471c8cfede397c30014a76a2c3540dd8cb1946bfb1a42664e9b9d2d70dd2
 offers:
@@ -31,7 +31,7 @@ offers:
     offer_slug: up-to-5000-cloud-credits-12-months
     offer_slug_aliases: []
     title: Up to $5,000 in cloud credits for 12 months
-    summary: Eligible early-stage startups receive up to $5,000 in Truobox credits for any Truobox services during the first 12 months, with no commitment or credit card required, plus priority support and technical mentoring.
+    summary: Eligible early-stage startups receive up to $5,000 in Truobox credits for any Truobox services during the first 12 months, with no commitment or credit card required.
     lifecycle:
       status: active
       effective_from: 2026-09-06T23:24:00.000Z
@@ -48,12 +48,6 @@ offers:
           duration:
             kind: exact
             value: P12M
-        - benefit_id: ben_02
-          description: Priority technical support with reduced response times
-          kind: other
-        - benefit_id: ben_03
-          description: Technical mentoring sessions with senior engineers on infrastructure design and scaling
-          kind: other
       consideration:
         kind: none
     eligibility:
