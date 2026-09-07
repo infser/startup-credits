@@ -43,9 +43,6 @@ offers:
           description: Commission-free payment acceptance worth ₹6 lakh over six months (₹1 lakh per month)
           kind: waiver
           waived_item: Payment processing commission on INR 6 lakh in total payment volume (INR 1 lakh per month for six months)
-          duration:
-            kind: exact
-            value: P6M
         - benefit_id: ben_02
           description: Setup charges waived for eligible Paytm Payment Gateway startup customers
           kind: waiver
