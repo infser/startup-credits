@@ -13,6 +13,7 @@ entity:
       valid_from: 2026-09-07T11:17:00.000Z
   category: payments-fintech
 profile:
+  summary: Indian payments and financial services company for payment gateway, merchant tools, banking products, and advertising.
   description: Paytm is an Indian payments and financial services company offering payment gateway, merchant tools, banking products, and advertising for businesses.
   links:
     site: https://business.paytm.com/
@@ -71,6 +72,7 @@ offers:
     access:
       availability: public
       method: form
+      instructions: Open the Paytm for Startups page and complete the on-page Get Started application form with company details, contact information, and the Paytm products of interest.
       url: https://business.paytm.com/paytm-startups
     source_ids:
       - src_9e970492414cf2f2b3b458cb0743981c8c5b3318cc2411a30ba1e72fa279f9e6
