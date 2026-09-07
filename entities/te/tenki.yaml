@@ -34,7 +34,7 @@ offers:
     offer_slug: ten-thousand-credits-and-matching-grants
     offer_slug_aliases: []
     title: USD 10,000 credits plus matching grants up to USD 40,000
-    summary: Approved startups get USD 10,000 in free Tenki credits plus 1:1 matching grants up to USD 40,000 on purchased credits after upgrading to Team.
+    summary: Approved startups get USD 10,000 in free Tenki credits plus 1:1 matching grants up to USD 40,000 on purchased credits.
     lifecycle:
       status: active
       effective_from: 2026-09-07T14:15:00.000Z
@@ -57,8 +57,7 @@ offers:
               minor_units: 4000000
             kind: up-to
       consideration:
-        kind: variable
-        description: The USD 10,000 credits are free. Matching grants require purchasing additional Tenki credits; every additional dollar of credit purchased is matched 1:1, up to USD 40,000.
+        kind: none
     eligibility:
       rule:
         criterion_id: cri_01
