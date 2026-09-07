@@ -48,9 +48,6 @@ offers:
           duration:
             kind: exact
             value: P12M
-      consideration:
-        kind: unknown
-        description: The source record did not establish separate consideration.
     eligibility:
       rule:
         kind: all
