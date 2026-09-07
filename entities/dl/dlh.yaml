@@ -52,14 +52,13 @@ offers:
               minor_units: 5000000
             kind: up-to
       consideration:
-        kind: unknown
-        description: The source record did not establish separate consideration.
+        kind: none
     eligibility:
       rule:
         kind: manual
         criterion_id: cri_01
         reason: vendor-discretion
-        statement: The applicant must qualify under one of the published DLH.io Startup Program tracks (self-funded pre-seed/bootstrapped under USD 1M funding, or venture-backed Seed through Series B with more than USD 1M funding).
+        statement: Qualifying startups under the published DLH.io Startup Program tracks may apply.
     roles:
       terms_authority_entity_id: ent_01m1yy416v3p69s2kcgg3jbh3r
       access_operator_entity_id: ent_01m1yy416v3p69s2kcgg3jbh3r
