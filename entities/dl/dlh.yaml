@@ -28,83 +28,23 @@ programs:
     program_slug_aliases:
       - startups
     title: DLH.io Startup Program
-    summary: DLH.io offers two startup tracks with up to USD 5,000 in credits for self-funded teams and up to USD 50,000 in credits for venture-backed teams, plus onboarding and support benefits.
+    summary: DLH.io offers qualifying startups up to USD 50,000 in credits across published self-funded and venture-backed tracks, plus onboarding and support benefits.
     source_ids:
       - src_a9da2a3353e5461f736a4c8286b779d49231f323f11a28d222f098633bce3fc3
 offers:
   - offer_id: off_01m1yy416vaxsejkzd9s5tktpd
     program_id: prg_01m1yy416v1h0any2t9sfp7mxt
-    offer_slug: self-funded-startup-credits
+    offer_slug: startup-program-credits
     offer_slug_aliases: []
-    title: Self-Funded Startup Credits
-    summary: Pre-seed and bootstrapped startups building an MVP or early product with less than USD 1M in funding may receive up to USD 5,000 in DLH.io credits, onboarding support, early access to connectors and AI features, and community Slack access.
+    title: DLH.io Startup Program credits
+    summary: Qualifying startups may receive up to USD 50,000 in DLH.io credits (self-funded track up to USD 5,000; venture-backed track up to USD 50,000), plus onboarding and support on the startups page.
     lifecycle:
       status: active
       effective_from: 2026-09-07T21:51:00.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Up to USD 5,000 in DLH.io credits
-          kind: credit
-          value:
-            amount:
-              currency: USD
-              minor_units: 500000
-            kind: up-to
-        - benefit_id: ben_02
-          description: Onboarding support and documentation
-          kind: other
-        - benefit_id: ben_03
-          description: Early access to new connectors and AI features
-          kind: other
-        - benefit_id: ben_04
-          description: Community Slack access
-          kind: other
-      consideration:
-        kind: none
-    eligibility:
-      rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: external-verification
-            statement: The applicant must be a pre-seed or bootstrapped company.
-          - criterion_id: cri_02
-            kind: manual
-            reason: external-verification
-            statement: The company must be building an MVP or early product.
-          - criterion_id: cri_03
-            fact: company.funding_raised_usd
-            kind: predicate
-            operator: lt
-            statement: The company must have less than USD 1,000,000 in funding.
-            value:
-              type: number
-              value: 1000000
-    roles:
-      terms_authority_entity_id: ent_01m1yy416v3p69s2kcgg3jbh3r
-      access_operator_entity_id: ent_01m1yy416v3p69s2kcgg3jbh3r
-    access:
-      availability: public
-      method: form
-      url: https://datalakehouse.io/startups
-      instructions: Open the DLH.io Startups page and submit the Apply Now application form, or ask an investor to refer the company.
-    source_ids:
-      - src_a9da2a3353e5461f736a4c8286b779d49231f323f11a28d222f098633bce3fc3
-  - offer_id: off_01m1yy416vh1x5tq8d0ajpc7f9
-    program_id: prg_01m1yy416v1h0any2t9sfp7mxt
-    offer_slug: venture-backed-startup-credits
-    offer_slug_aliases: []
-    title: Venture-Backed Startup Credits
-    summary: Seed–Series B VC or accelerator-backed startups with more than USD 1M funding may receive up to USD 50,000 in DLH.io credits plus dedicated onboarding, priority support, and co-marketing.
-    lifecycle:
-      status: active
-      effective_from: 2026-09-07T21:51:00.000Z
-    economics:
-      benefits:
-        - benefit_id: ben_01
-          description: Up to USD 50,000 in DLH.io credits
+          description: Up to USD 50,000 in DLH.io credits for qualifying startups
           kind: credit
           value:
             amount:
@@ -112,36 +52,16 @@ offers:
               minor_units: 5000000
             kind: up-to
         - benefit_id: ben_02
-          description: Dedicated onboarding and data architecture review
-          kind: other
-        - benefit_id: ben_03
-          description: Priority support and roadmap input
-          kind: other
-        - benefit_id: ben_04
-          description: Co-marketing and speaking opportunities
+          description: Onboarding support; venture-backed track also lists dedicated architecture review, priority support, and co-marketing
           kind: other
       consideration:
         kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: external-verification
-            statement: The applicant must be a Seed through Series B company.
-          - criterion_id: cri_02
-            kind: manual
-            reason: external-verification
-            statement: The company must be VC or accelerator-backed.
-          - criterion_id: cri_03
-            fact: company.funding_raised_usd
-            kind: predicate
-            operator: gt
-            statement: The company must have more than USD 1,000,000 in funding.
-            value:
-              type: number
-              value: 1000000
+        kind: manual
+        criterion_id: cri_01
+        reason: vendor-discretion
+        statement: The applicant must qualify under one of the published DLH.io Startup Program tracks (self-funded pre-seed/bootstrapped under USD 1M funding, or venture-backed Seed through Series B with more than USD 1M funding).
     roles:
       terms_authority_entity_id: ent_01m1yy416v3p69s2kcgg3jbh3r
       access_operator_entity_id: ent_01m1yy416v3p69s2kcgg3jbh3r
