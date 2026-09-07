@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-28T15:05:00.000Z
   category: apis-integration
 profile:
+  summary: Recall.ai provides APIs for meeting transcripts, recordings, and metadata across Zoom, Google Meet, Microsoft Teams, Slack, and Webex.
   description: Recall.ai is an API platform for meeting transcripts, recordings, and metadata across Zoom, Google Meet, Microsoft Teams, Slack, and Webex.
   links:
     site: https://www.recall.ai
@@ -38,13 +39,16 @@ offers:
       effective_from: 2026-08-28T15:05:00.000Z
     economics:
       consideration:
-        kind: unknown
-        description: Startups pay the published introductory rate of $0.25 per recording hour during the included usage window.
+        kind: variable
+        description: Startups pay $0.25 per hour for the first 10,000 recording hours.
       benefits:
         - benefit_id: ben_01
-          description: Discounted introductory rate of $0.25 per hour for the first 10,000 recording hours, covering Recall.ai recording and transcription APIs, calendar integration, and recording form factors.
+          description: Discounted introductory rate of $0.25 per hour for the first 10,000 recording hours.
           kind: other
         - benefit_id: ben_02
+          description: Access to recording and transcription APIs, calendar integration, and recording form factors.
+          kind: other
+        - benefit_id: ben_03
           description: Direct support from Recall.ai engineers while you build and launch.
           kind: other
     eligibility:
