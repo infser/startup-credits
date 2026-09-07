@@ -31,7 +31,7 @@ offers:
     offer_slug: up-to-10000-free-compute
     offer_slug_aliases: []
     title: Up to $10,000 in free compute resources
-    summary: Inference.net offers up to $10,000 in free compute resources to developers and researchers working on open-source AI projects; grants are reviewed and awarded on a rolling basis.
+    summary: Up to $10,000 in free compute resources for developers and researchers working on open-source AI projects.
     lifecycle:
       status: active
       effective_from: 2026-09-07T16:14:00.000Z
@@ -59,7 +59,7 @@ offers:
     access:
       availability: public
       method: form
-      instructions: Submit the grant application form on the Inference.net AI Compute Grants page with name, email, project description, GitHub repo, and project type.
+      instructions: Fill out the form on the Inference.net AI Compute Grants page and the team will be in touch.
       url: https://inference.net/grants/
     source_ids:
       - src_cf23ea3901fea53c636e3546206a4798868f3b12cfdd9c1c80c267e2d866a4ce
