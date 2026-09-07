@@ -10,8 +10,8 @@ entity:
       valid_from: 2026-09-07T01:00:00.000Z
   category: data-analytics
 profile:
-  summary: NeuroAPI provides a web data API for scrape, search, crawl, map, and extract, with a native MCP server.
-  description: NeuroAPI provides a web data API for scrape, search, crawl, map, extract, and screenshots, with a native MCP server for AI agents.
+  summary: NeuroAPI is the web data API behind AI agents — one endpoint for scrape, search, crawl, map and extract, with a native MCP server.
+  description: NeuroAPI is a web data API for scrape, search, crawl, map and extract for AI agents and products, with a native MCP server included.
   links:
     site: https://neuroapi.me
 sources:
@@ -38,12 +38,12 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Up to 100,000 NeuroAPI credits (grants range from 5,000 to 100,000 credits)
+          description: Up to 100,000 credits
           kind: other
         - benefit_id: ben_02
-          description: All endpoints unlocked, including scrape, search, crawl, map, extract, screenshots, and MCP
+          description: All endpoints unlocked
           kind: free-service
-          service: NeuroAPI endpoints and MCP access
+          service: Scrape, search, crawl, map, extract, screenshots and MCP
       consideration:
         kind: none
     eligibility:
@@ -54,7 +54,7 @@ offers:
             fact: company.age_months
             kind: predicate
             operator: lte
-            statement: Founded within the last 2 years.
+            statement: Founded within the last 2 years
             value:
               type: number
               value: 24
@@ -85,8 +85,7 @@ offers:
     access:
       availability: public
       method: form
-      instructions: Create a free NeuroAPI account, sign in, and complete the startup credit application. Applications are reviewed within 3 business days.
+      instructions: Create your free account first, sign in to apply, and complete the 2-minute application. Reviewed in 3 days.
       url: https://neuroapi.me/startup-credits
-    terms_url: https://neuroapi.me/startup-credits
     source_ids:
       - src_2a33d9a39e73c668cc68ee2f59e5641ebc8ea58519b5d4ef48cdaddbaae9cd26
