@@ -85,7 +85,6 @@ offers:
     access:
       availability: public
       method: form
-      instructions: Create your free account first, sign in to apply, and complete the 2-minute application. Reviewed in 3 days.
       url: https://neuroapi.me/startup-credits
     source_ids:
       - src_2a33d9a39e73c668cc68ee2f59e5641ebc8ea58519b5d4ef48cdaddbaae9cd26
