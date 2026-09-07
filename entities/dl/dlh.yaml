@@ -37,25 +37,23 @@ offers:
     offer_slug: startup-program-credits
     offer_slug_aliases: []
     title: DLH.io Startup Program credits
-    summary: Qualifying startups may receive up to USD 50,000 in DLH.io credits (self-funded track up to USD 5,000; venture-backed track up to USD 50,000), plus onboarding and support on the startups page.
+    summary: Qualifying startups can receive up to $50,000 in DLH.io credits and dedicated onboarding support under the published Startup Program tracks.
     lifecycle:
       status: active
       effective_from: 2026-09-07T21:51:00.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Up to USD 50,000 in DLH.io credits for qualifying startups
+          description: Up to $50,000 in DLH.io credits
           kind: credit
           value:
             amount:
               currency: USD
               minor_units: 5000000
             kind: up-to
-        - benefit_id: ben_02
-          description: Onboarding support; venture-backed track also lists dedicated architecture review, priority support, and co-marketing
-          kind: other
       consideration:
-        kind: none
+        kind: unknown
+        description: The source record did not establish separate consideration.
     eligibility:
       rule:
         kind: manual
