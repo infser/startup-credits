@@ -48,6 +48,12 @@ offers:
           duration:
             kind: exact
             value: P12M
+        - benefit_id: ben_02
+          description: Hands-on integration support
+          kind: free-service
+          service: Practical help as you move from prototype to production
+      consideration:
+        kind: none
     eligibility:
       rule:
         kind: all
