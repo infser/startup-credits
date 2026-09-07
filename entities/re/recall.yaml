@@ -40,7 +40,7 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: Total amount paid varies with recording usage; approved startups are billed $0.25 per hour for the first 10,000 recording hours.
+        description: Recording usage is billed at $0.25 per hour for the first 10,000 recording hours.
       benefits:
         - benefit_id: ben_01
           description: Discounted introductory rate of $0.25 per hour for the first 10,000 recording hours.
