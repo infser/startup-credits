@@ -34,7 +34,7 @@ offers:
     offer_slug: ten-thousand-credits-and-matching-grants
     offer_slug_aliases: []
     title: USD 10,000 credits plus matching grants up to USD 40,000
-    summary: Approved startups get USD 10,000 in free Tenki credits usable across Sandboxes, GitHub Runners, and AI Code Reviewer, plus 1:1 matching grants up to USD 40,000 on additional purchased credits. Applicants must create an account and upgrade to the Team plan before applying.
+    summary: Approved startups get USD 10,000 in free Tenki credits plus 1:1 matching grants up to USD 40,000 on purchased credits after upgrading to Team.
     lifecycle:
       status: active
       effective_from: 2026-09-07T14:15:00.000Z
