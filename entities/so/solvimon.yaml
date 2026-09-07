@@ -10,8 +10,8 @@ entity:
       valid_from: 2026-09-07T12:10:00.000Z
   category: finance-accounting
 profile:
-  summary: Billing and revenue management platform for usage-based, credit, seat, and enterprise software pricing.
-  description: Solvimon provides usage-based and hybrid billing infrastructure for software and AI companies, covering credits, usage, seats, and enterprise contracts.
+  summary: Billing and revenue management for AI companies covering credits, usage, seats, and enterprise contracts.
+  description: Solvimon provides billing and revenue management for AI companies, covering credits, usage, seats, and enterprise contracts in one system.
   links:
     site: https://www.solvimon.com/
 sources:
@@ -22,7 +22,7 @@ programs:
     program_slug: solvimon-y-combinator-offer
     program_slug_aliases: []
     title: Solvimon x Y Combinator
-    summary: Y Combinator portfolio companies get Solvimon billing infrastructure with platform fees waived on the first USD 3 million in billed revenue, then 0.4% of billed revenue, plus migration and pricing support.
+    summary: YC founders get free billing infrastructure until USD 3 million in billed revenue, then 0.4% of billed revenue afterwards, exclusive to Y Combinator portfolio companies.
     source_ids:
       - src_127435e09751ad985a70f98b77b6108849ec93c835fa599c6312c1b5e339a403
 offers:
@@ -31,25 +31,25 @@ offers:
     offer_slug: free-billing-until-three-million-revenue
     offer_slug_aliases: []
     title: Free billing until USD 3 million in billed revenue
-    summary: Y Combinator founders pay no Solvimon platform fee on their first USD 3 million in billed revenue, then 0.4% of billed revenue afterwards, with Stripe migration and pricing-strategy support included.
+    summary: First USD 3 million in billed revenue is free for Y Combinator founders; afterwards Solvimon charges 0.4% of billed revenue. Offer is exclusive to Y Combinator.
     lifecycle:
       status: active
       effective_from: 2026-09-07T12:10:00.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Platform fees waived on the first USD 3 million in billed revenue
-          kind: waiver
-          waived_item: Solvimon platform fees on the first USD 3 million in billed revenue
+          description: First USD 3 million in billed revenue is free
+          kind: free-service
+          service: Solvimon billing infrastructure until USD 3 million in billed revenue
       consideration:
         kind: variable
-        description: After the first USD 3 million in billed revenue, Solvimon charges 0.4% of billed revenue. Payment processing fees are separate.
+        description: 0.4% of billed revenue afterwards
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
         reason: external-verification
-        statement: Applicant must be a Y Combinator batch participant or portfolio company.
+        statement: Exclusive to Y Combinator portfolio companies and YC founders.
     roles:
       terms_authority_entity_id: ent_01m1xwj00n3qf436f4d5bkzv6j
       access_operator_entity_id: ent_01m1xwj00n3qf436f4d5bkzv6j
