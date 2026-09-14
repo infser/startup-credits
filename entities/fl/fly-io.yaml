@@ -62,7 +62,7 @@ offers:
     access:
       availability: public
       method: contact
-      instructions: Open the Fly.io pricing page Startup program section and email billing@fly.io with subject Startup program to apply for credit.
+      instructions: Open the Fly.io pricing page Startup program section and use the Apply for credit contact to request startup credits.
       url: https://fly.io/pricing/
     terms_url: https://fly.io/pricing/
     source_ids:
