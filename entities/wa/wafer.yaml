@@ -58,7 +58,6 @@ offers:
           kind: other
       consideration:
         kind: none
-        description: The initial $500 free credits require no purchase; matching credits require purchasing credits up to the stated cap.
     eligibility:
       rule:
         kind: all
