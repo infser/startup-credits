@@ -10,11 +10,13 @@ entity:
       valid_from: 2026-09-07T06:29:38.000Z
   category: data-analytics
 profile:
-  summary: Financial market data API platform covering stocks, forex, crypto, funds, fundamentals, and technical indicators.
-  description: Twelve Data provides financial market data APIs for stocks, forex, crypto, funds, fundamentals, and other international market data.
+  summary: Twelve Data provides financial market data APIs for stocks, forex, crypto, ETFs, funds, commodities, and fundamentals, with technical indicators and spreadsheet add-ins.
+  description: Twelve Data provides market data APIs for international stocks, forex, crypto, ETFs, funds, commodities, and fundamentals.
   links:
-    site: https://twelvedata.com
+    site: https://twelvedata.com/
 sources:
+  - source_id: src_e65cc479cba6dd550ef7f239235cdf7f722e94370914b4c4c3a5444269e84442
+    url: https://twelvedata.com/
   - source_id: src_1a669d19481bd3810f9e8686c6c98d29b1cd6be8ba9cf13379ebc3ae269ce1f4
     url: https://twelvedata.com/startups
 programs:
@@ -38,10 +40,10 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: The startup pays the remaining discounted price of its selected Twelve Data plan.
+        description: The startup pays for its chosen Twelve Data plan at 20% off for 12 months.
       benefits:
         - benefit_id: ben_01
-          description: 20% discount on Twelve Data plans for 12 months
+          description: 20% off Twelve Data plans for 12 months
           applies_to: Twelve Data plans
           duration:
             kind: exact
@@ -58,7 +60,7 @@ offers:
             fact: company.funding_raised_usd
             kind: predicate
             operator: lte
-            statement: Startup has raised up to USD 1 million in funding.
+            statement: Early stage, with up to $1M in funding.
             value:
               type: number
               value: 1000000
@@ -66,7 +68,7 @@ offers:
             fact: company.age_months
             kind: predicate
             operator: lt
-            statement: Startup is less than two years old.
+            statement: Early stage, less than 2 years old.
             value:
               type: number
               value: 24
@@ -74,20 +76,21 @@ offers:
             fact: company.employee_count
             kind: predicate
             operator: lte
-            statement: Startup has 10 employees or fewer.
+            statement: Small team of 10 employees or less.
             value:
               type: number
               value: 10
           - criterion_id: cri_04
             kind: manual
             reason: external-verification
-            statement: Applicant must be a legal entity and use the product under the same company domain.
+            statement: Single structure. The applicant is a legal entity, with the same use as its domain.
     roles:
       terms_authority_entity_id: ent_01m1x8xqs1q21e2vscbvtqe4hv
       access_operator_entity_id: ent_01m1x8xqs1q21e2vscbvtqe4hv
     access:
       availability: public
       method: form
-      url: https://twelvedata.com/account/perks/2
+      instructions: Use Apply now on the Twelve Data startups page, which opens the Early Stage Program perk in your Twelve Data account; sign-in is required.
+      url: https://twelvedata.com/startups
     source_ids:
       - src_1a669d19481bd3810f9e8686c6c98d29b1cd6be8ba9cf13379ebc3ae269ce1f4
