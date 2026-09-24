@@ -86,7 +86,6 @@ offers:
       access_operator_entity_id: ent_01m1fd1j7m4vs9q2ww177f5env
     access:
       availability: public
-      instructions: Sign up for Formo for free, then fill out the startup program application form and schedule a call with the Formo team. Formo says it replies within 3 business days if the startup is accepted.
       method: form
       url: https://app.formo.so/XllUJsVgEkA9RL669clnY
     terms_url: https://formo.so/startups
