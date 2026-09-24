@@ -52,12 +52,8 @@ offers:
         - benefit_id: ben_03
           description: Additional API calls at £0.002 per call
           kind: other
-        - benefit_id: ben_04
-          description: Complete vehicle data API access, including historical pricing trends, VIN decoding, real-time market valuations, vehicle specifications, market analysis tools, priority technical support, and a dedicated startup account manager
-          kind: other
       consideration:
-        kind: variable
-        description: API calls beyond the 25,000 free calls a month are charged at £0.002 per call.
+        kind: none
     eligibility:
       rule:
         kind: all
