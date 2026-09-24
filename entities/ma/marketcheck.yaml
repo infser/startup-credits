@@ -10,12 +10,15 @@ entity:
       valid_from: 2026-09-01T18:26:00.000Z
   category: data-analytics
 profile:
+  summary: MarketCheck organises the UK automotive retail market into a live dataset of cars and dealers, delivered through a car data API, data feeds, and valuations.
   description: MarketCheck is a UK automotive data platform that supplies vehicle listing data, pricing, VIN decoding, and market valuations through an API.
   links:
     site: https://marketcheck.uk
 sources:
   - source_id: src_04336ae5b4c56f3e41fa231b9fc6e0493f03dffbacc221696e92f89c12f5966e
     url: https://marketcheck.uk/automotive-sectors/marketcheck-for-startups
+  - source_id: src_6c980b74b615aa0aad0a46ea65bb374cc879986be75bc779bc49b80e02dc2c63
+    url: https://marketcheck.uk/
 programs:
   - program_id: prg_01m1f3he230qw7z08v6akb98m9
     program_slug: marketcheck-for-startups
@@ -53,7 +56,8 @@ offers:
           description: Complete vehicle data API access, including historical pricing trends, VIN decoding, real-time market valuations, vehicle specifications, market analysis tools, priority technical support, and a dedicated startup account manager
           kind: other
       consideration:
-        kind: none
+        kind: variable
+        description: API calls beyond the 25,000 free calls a month are charged at £0.002 per call.
     eligibility:
       rule:
         kind: all
