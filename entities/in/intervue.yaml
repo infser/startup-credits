@@ -1,6 +1,6 @@
 schema_version: sourcey.entity-authoring/v1alpha1
 entity:
-  entity_id: ent_01qnfbnmjg6mas98385bvfn06y
+  entity_id: ent_01m39775jkj4xfdyp6y5hk17nd
   slug: intervue
   slug_aliases: []
   name: Intervue
@@ -10,35 +10,37 @@ entity:
       valid_from: 2026-09-06T21:40:00.000Z
   category: hr-people
 profile:
-  summary: Technical interviewing, coding assessment, and expert interview services for hiring teams.
-  description: Intervue provides technical interviewing, coding assessment, and expert interview services for hiring teams.
+  summary: Intervue is a tech hiring platform that provides expert-led technical interviews on demand, coding interviews, and mock interviews with industry experts.
+  description: Intervue is a tech hiring platform offering expert-led technical interviews on demand, coding interview tools, and mock interviews.
   links:
-    site: https://www.intervue.io
+    site: https://www.intervue.io/
 sources:
+  - source_id: src_12cdff7184ec8ac2f7b6fdedc794a327bf9cf1580aa2c9f2e1f3959a78cac38e
+    url: https://www.intervue.io/
   - source_id: src_43d3f02a0923af4d847389f55ffb6c1b629b70878646e6d2b2959949151b6804
     url: https://www.intervue.io/startups
 programs:
-  - program_id: prg_01cm0rs63np24nj4wec6mktcsc
+  - program_id: prg_01m39775jkf80qt5vqm4dt8y8q
     program_slug: intervue-for-startups
     program_slug_aliases: []
     title: Intervue for Startups
-    summary: Intervue for Startups gives eligible startups $5,000 in credits usable toward any Intervue plan for six months, with access to enterprise-level features.
+    summary: The Intervue Startup Program gives eligible startups $5,000 in credits for any Intervue plan, valid for six months, with access to all enterprise-level features.
     source_ids:
       - src_43d3f02a0923af4d847389f55ffb6c1b629b70878646e6d2b2959949151b6804
 offers:
-  - offer_id: off_014cbz7243sgbs58c65ybyq708
-    program_id: prg_01cm0rs63np24nj4wec6mktcsc
+  - offer_id: off_01m39775jk3evn5pnkvm8z882d
+    program_id: prg_01m39775jkf80qt5vqm4dt8y8q
     offer_slug: 5000-credits-six-months
     offer_slug_aliases: []
     title: $5,000 in Intervue credits for six months
-    summary: Eligible startups receive $5,000 in credits usable toward any Intervue plan for six months, with access to enterprise-level features regardless of plan.
+    summary: Eligible startups get $5,000 worth of credits usable towards any Intervue plan, valid for six months, plus access to all enterprise-level features whichever plan they choose.
     lifecycle:
       status: active
       effective_from: 2026-09-06T21:40:00.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: $5,000 in credits usable toward any Intervue plan
+          description: $5,000 worth of credits that can be used towards any Intervue plan, valid for 6 months
           kind: credit
           value:
             amount:
@@ -49,25 +51,23 @@ offers:
             kind: exact
             value: P6M
         - benefit_id: ben_02
-          description: Access to enterprise-level features regardless of the selected plan
+          description: Access to all enterprise-level features no matter which plan is chosen
           kind: other
       consideration:
-        kind: unknown
-        description: The startups page does not state a separate consideration or fee beyond applying for the program.
+        kind: none
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
         reason: vendor-discretion
-        statement: The offer is available to startups that Intervue determines are eligible for its startup program.
+        statement: The credits are for eligible startups that sign up for the Intervue Startup Program; Intervue determines eligibility.
     roles:
-      terms_authority_entity_id: ent_01qnfbnmjg6mas98385bvfn06y
-      access_operator_entity_id: ent_01qnfbnmjg6mas98385bvfn06y
+      terms_authority_entity_id: ent_01m39775jkj4xfdyp6y5hk17nd
+      access_operator_entity_id: ent_01m39775jkj4xfdyp6y5hk17nd
     access:
       availability: public
       method: form
-      instructions: Apply now to get started with Intervue's startup program right away.
+      instructions: Create an account through the signup form on the Intervue for Startups page to join the startup program.
       url: https://www.intervue.io/startups
-    terms_url: https://www.intervue.io/terms
     source_ids:
       - src_43d3f02a0923af4d847389f55ffb6c1b629b70878646e6d2b2959949151b6804
