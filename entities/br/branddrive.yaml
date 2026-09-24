@@ -10,11 +10,13 @@ entity:
       valid_from: 2026-09-07T10:10:00.000Z
   category: finance-accounting
 profile:
-  summary: AI operating system for African businesses covering invoicing, inventory, expenses, and analytics.
-  description: BrandDrive is a financial technology platform that helps African businesses run invoicing, inventory, expenses, and analytics in one place.
+  summary: BrandDrive is business management software for African businesses, combining accounting, point of sale, invoicing, inventory, expenses, and payments in one place.
+  description: BrandDrive is business management software for African businesses, covering accounting, point of sale, invoicing, inventory, expenses, and payments.
   links:
-    site: https://branddrive.co
+    site: https://branddrive.co/
 sources:
+  - source_id: src_ee4f3175f249bc065d0d2cd5dde4d55a094b2404c310b1a9d18759d8a81bda7e
+    url: https://branddrive.co/
   - source_id: src_335d846453730ebab1c1e5b00d540473b6a4ceca7b007b6e7003b0b04e3bee51
     url: https://branddrive.co/startup-program
 programs:
@@ -23,7 +25,7 @@ programs:
     program_slug_aliases:
       - startup-support
     title: BrandDrive Startup Program
-    summary: BrandDrive offers eligible early-stage new customers free access to the BrandDrive platform, with a published six-month free term and a page headline of up to twelve months free.
+    summary: The BrandDrive Startup Program gives eligible early-stage businesses that are new customers free BrandDrive access, starting with a 6-month free term.
     source_ids:
       - src_335d846453730ebab1c1e5b00d540473b6a4ceca7b007b6e7003b0b04e3bee51
 offers:
@@ -31,20 +33,21 @@ offers:
     program_id: prg_01m1xny2k2k60wbee2kvt4fpg3
     offer_slug: six-months-free-access
     offer_slug_aliases: []
-    title: Six Months Free BrandDrive Access
-    summary: Eligible new businesses under five years old that have raised less than $500K receive six months of free BrandDrive access after applying through the public startup program page.
+    title: 6 months of free BrandDrive access
+    summary: New BrandDrive customers in operation for no more than 5 years that have raised less than $500K get 6 months of free BrandDrive access after applying on the Startup Program page.
+    description: The Startup Program page headline advertises up to 12 months of BrandDrive free. Its How it works section describes a 6-month free term, reminder emails before it ends, and an exclusive graduation offer afterwards.
     lifecycle:
       status: active
       effective_from: 2026-09-07T10:10:00.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Free BrandDrive platform access for six months
+          description: 6 months of free access to BrandDrive, starting on enrollment
           duration:
             kind: exact
             value: P6M
           kind: free-service
-          service: BrandDrive platform access
+          service: BrandDrive business management platform
       consideration:
         kind: none
     eligibility:
@@ -77,6 +80,7 @@ offers:
     access:
       availability: public
       method: form
+      instructions: Use Apply today on the BrandDrive Startup Program page to apply and enroll.
       url: https://branddrive.co/startup-program
     terms_url: https://branddrive.co/startup-program
     source_ids:
