@@ -10,7 +10,8 @@ entity:
       valid_from: 2026-09-02T12:14:00.000Z
   category: data-analytics
 profile:
-  description: ScrapeGraphAI provides AI-powered APIs for web scraping, structured data extraction, search, crawling, and website change monitoring.
+  summary: ScrapeGraphAI is an AI-powered web scraping platform that turns web pages into structured data through its API.
+  description: ScrapeGraphAI provides AI-powered APIs for multi-format page scraping, structured data extraction, web search with extraction, and JSON schema generation.
   links:
     site: https://scrapegraphai.com
 sources:
