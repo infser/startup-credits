@@ -33,14 +33,14 @@ offers:
     offer_slug: up-to-50000-simba-space-cloud-credits
     offer_slug_aliases: []
     title: Up to $50,000 in Simba Space cloud credits
-    summary: Eligible pre-seed to Series A technology startups receive up to $50,000 in Simba Space cloud infrastructure credits, one-stop hosting setup, 24/7 priority support, and regular founder consultation.
+    summary: Eligible pre-seed to Series A technology startups receive up to $50,000 in cloud infrastructure credits across Simba Space, one-stop infrastructure, 24/7 support, and regular founder consultation.
     lifecycle:
       status: active
       effective_from: 2026-09-02T11:10:00.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Up to $50,000 in Simba Space cloud infrastructure credits to host apps, databases, and services
+          description: Up to $50,000 in cloud infrastructure credits across Simba Space to host apps, databases, and services.
           kind: credit
           value:
             amount:
@@ -48,13 +48,13 @@ offers:
               minor_units: 5000000
             kind: up-to
         - benefit_id: ben_02
-          description: One-stop managed infrastructure setup for hosting, email, and collaboration so founders can focus on building
+          description: One-stop infrastructure, with hosting, email, and collaboration set up and managed.
           kind: other
         - benefit_id: ben_03
-          description: 24/7 priority support with direct escalation paths
+          description: 24/7 support with priority response times and direct escalation paths.
           kind: other
         - benefit_id: ben_04
-          description: Regular one-on-one founder consultation sessions on product, technology, and go-to-market strategy
+          description: Regular 1-on-1 founder consultation sessions with leadership for product, technology, and go-to-market strategy advice.
           kind: other
       consideration:
         kind: none
@@ -87,8 +87,7 @@ offers:
       access_operator_entity_id: ent_01m398c75264bth1eq29drb9zv
     access:
       availability: public
-      method: form
-      instructions: Open the Unistam Startup Program page and complete the on-page Apply Now form. Applications are reviewed on a rolling basis; limited spots each quarter.
+      method: contact
       url: https://unistamts.com/startups.php
     terms_url: https://unistamts.com/startups.php
     source_ids:
