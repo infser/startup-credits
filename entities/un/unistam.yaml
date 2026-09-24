@@ -1,6 +1,6 @@
 schema_version: sourcey.entity-authoring/v1alpha1
 entity:
-  entity_id: ent_01791rkrhhep5c840vjwsg8p5v
+  entity_id: ent_01m398c75264bth1eq29drb9zv
   slug: unistam
   slug_aliases: []
   name: Unistam
@@ -10,14 +10,17 @@ entity:
       valid_from: 2026-09-02T11:10:00.000Z
   category: hosting-infra
 profile:
+  summary: Unistam Technology Services delivers cloud infrastructure, enterprise support, and digital transformation services, and operates the Simba Space cloud hosting platform.
   description: Unistam Technology Services provides managed cloud infrastructure, Simba Space hosting, business technology products, and founder consulting for early-stage teams.
   links:
     site: https://unistamts.com
 sources:
   - source_id: src_a39e1cf7cc4463ca733b5203006194c7091f7e6b4cd21c15e2f0a7a415a41e72
     url: https://unistamts.com/startups.php
+  - source_id: src_1e969bead8e146cfafea9baf4539fd684b2545e06e60125b47a40528a5bbf29c
+    url: https://unistamts.com/
 programs:
-  - program_id: prg_01k2rcztvt9xsbxfb6dx8vrcnb
+  - program_id: prg_01m398c752dc749mn6m9q8c3r4
     program_slug: unistam-startup-program
     program_slug_aliases: []
     title: Unistam Startup Program
@@ -25,8 +28,8 @@ programs:
     source_ids:
       - src_a39e1cf7cc4463ca733b5203006194c7091f7e6b4cd21c15e2f0a7a415a41e72
 offers:
-  - offer_id: off_01k4sc4m3mae46w6t9smmhq60a
-    program_id: prg_01k2rcztvt9xsbxfb6dx8vrcnb
+  - offer_id: off_01m398c7522jsbdz7137csf374
+    program_id: prg_01m398c752dc749mn6m9q8c3r4
     offer_slug: up-to-50000-simba-space-cloud-credits
     offer_slug_aliases: []
     title: Up to $50,000 in Simba Space cloud credits
@@ -80,8 +83,8 @@ offers:
             reason: vendor-discretion
             statement: Applications are reviewed on a rolling basis with limited spots each quarter; acceptance is subject to Unistam review.
     roles:
-      terms_authority_entity_id: ent_01791rkrhhep5c840vjwsg8p5v
-      access_operator_entity_id: ent_01791rkrhhep5c840vjwsg8p5v
+      terms_authority_entity_id: ent_01m398c75264bth1eq29drb9zv
+      access_operator_entity_id: ent_01m398c75264bth1eq29drb9zv
     access:
       availability: public
       method: form
