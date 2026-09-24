@@ -60,39 +60,19 @@ offers:
           description: Co-marketing campaigns including joint case studies and launch announcements
           kind: other
       consideration:
-        kind: unknown
-        description: The startup page does not establish separate consideration for the credit grant.
+        kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: not-machine-evaluable
-            statement: The founding team must be MENA-based, headquartered or primarily operating in the MENA region.
-          - criterion_id: cri_02
-            kind: manual
-            reason: not-machine-evaluable
-            statement: The company must be pre-seed to Series A, founded within the last 5 years; bootstrapped startups count as early-stage if revenue is still under $2M ARR.
-          - criterion_id: cri_03
-            fact: company.funding_raised_usd
-            kind: predicate
-            operator: lt
-            statement: Total capital raised to date must be under $10M.
-            value:
-              type: number
-              value: 10000000
-          - criterion_id: cri_04
-            kind: manual
-            reason: vendor-discretion
-            statement: Acceptance is subject to Hakim review; close-but-not-perfect fits may be overridden at vendor discretion, with a decision typically within 5 working days.
+        criterion_id: cri_01
+        kind: manual
+        reason: vendor-discretion
+        statement: MENA-based founding team, headquartered or primarily operating in the MENA region; pre-seed to Series A, founded within the last 5 years, with bootstrapped startups counting as early-stage if revenue is still under $2M ARR; under $10M total raised. Close fits can apply anyway, and the review team can override the gates for the right team.
     roles:
       terms_authority_entity_id: ent_01m1gw9wps2vwcp3y9pm603vpa
       access_operator_entity_id: ent_01m1gw9wps2vwcp3y9pm603vpa
     access:
       availability: public
       method: form
-      instructions: Complete the application form on the Hakim Startup Program page. Hakim replies with a decision within 5 working days, then holds a 30-minute technical kickoff call before the benefits go live on the workspace.
       url: https://tryhakim.ai/en/startups
     terms_url: https://tryhakim.ai/en/startups
     source_ids:
