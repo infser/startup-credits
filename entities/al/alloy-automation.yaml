@@ -8,21 +8,23 @@ entity:
     - value: runalloy.com
       role: primary
       valid_from: 2026-09-07T07:18:05.000Z
-  category: no-code
+  category: apis-integration
 profile:
-  summary: Integration and automation platform that helps companies build and run embedded and internal integrations.
-  description: Alloy Automation provides embedded iPaaS, connectivity APIs, and automation tooling so product and operations teams can launch and maintain integrations.
+  summary: Alloy Automation is an integration platform for embedded product integrations, internal automations, and AI agents, with an embedded iPaaS, a Connectivity API, and MCP support.
+  description: Alloy Automation provides an integration platform with an embedded iPaaS, a Connectivity API, and MCP support for product and internal integrations.
   links:
-    site: https://runalloy.com
+    site: https://runalloy.com/
 sources:
+  - source_id: src_1ef4548d94f478126ac9f4e91c85da756a9581449c9c15e64d68c382d16d14dc
+    url: https://runalloy.com/
   - source_id: src_6b53d5862e62d13ef1ce0761ce84e23329f24e35454b5f5318aeab486271fae2
     url: https://runalloy.com/startups/
 programs:
   - program_id: prg_01m1xbpeh488xcv0zpst8t48b6
     program_slug: alloy-automation-startup-program
     program_slug_aliases: []
-    title: Alloy Automation Startup Program
-    summary: Alloy Automation's startup program offers qualifying early-stage companies up to $2,000 in Alloy credits.
+    title: Alloy Automation for Startups
+    summary: Alloy Automation for Startups offers qualifying startups up to $2,000 in Alloy credits.
     source_ids:
       - src_6b53d5862e62d13ef1ce0761ce84e23329f24e35454b5f5318aeab486271fae2
 offers:
@@ -31,7 +33,7 @@ offers:
     offer_slug: up-to-2000-alloy-credits
     offer_slug_aliases: []
     title: Up to $2,000 in Alloy credits
-    summary: Qualifying startups founded less than five years ago, at pre-seed through Series B, that are not existing Alloy Automation customers can apply for up to $2,000 in Alloy credits.
+    summary: Startups founded less than 5 years ago, at pre-seed through Series B, that are not existing Alloy Automation customers can apply for up to $2,000 in Alloy credits.
     lifecycle:
       status: active
       effective_from: 2026-09-07T07:18:05.000Z
@@ -60,9 +62,17 @@ offers:
               type: number
               value: 60
           - criterion_id: cri_02
-            kind: manual
-            reason: not-machine-evaluable
+            fact: company.stage
+            kind: predicate
+            operator: in
             statement: Startups that are pre-seed, seed, Series A, or Series B.
+            value:
+              type: string-set
+              values:
+                - pre-seed
+                - seed
+                - series-a
+                - series-b
           - criterion_id: cri_03
             kind: manual
             reason: external-verification
@@ -74,6 +84,6 @@ offers:
       availability: public
       method: form
       url: https://runalloy.com/startups/
-      instructions: Fill out the application form on the Alloy Automation startups page to see if you qualify.
+      instructions: Fill out the form on the Alloy Automation for Startups page to see if you qualify.
     source_ids:
       - src_6b53d5862e62d13ef1ce0761ce84e23329f24e35454b5f5318aeab486271fae2
