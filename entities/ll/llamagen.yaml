@@ -1,6 +1,6 @@
 schema_version: sourcey.entity-authoring/v1alpha1
 entity:
-  entity_id: ent_01nt2f40apxve8zp9gdzdm4nec
+  entity_id: ent_01m39775kyz6k4hxp6fqg7m395
   slug: llamagen
   slug_aliases: []
   name: LlamaGen
@@ -10,15 +10,17 @@ entity:
       valid_from: 2026-09-07T00:10:00.000Z
   category: ai-ml
 profile:
-  summary: LlamaGen provides an AI Comic API for comics, storyboards, illustrations, and visual storytelling.
-  description: LlamaGen provides an AI Comic API for comics, storyboards, illustrations, and visual storytelling in products.
+  summary: LlamaGen is an AI comic generator with a Comic API that builds comics, storyboards, illustrations, and visual storytelling into other products.
+  description: LlamaGen is an AI comic generator and Comic API for creating comics, storyboards, and illustrations with consistent characters.
   links:
-    site: https://llamagen.ai
+    site: https://llamagen.ai/
 sources:
+  - source_id: src_1fa6cce047667797c2ac7129c7c540fa28d3b428e7dbaf4ef9f590462572ada7
+    url: https://llamagen.ai/
   - source_id: src_7967fc750d0e8033d98bd3570658c0e79f98b65460a6e2f93b60e2f20d6c5fdf
     url: https://llamagen.ai/startups
 programs:
-  - program_id: prg_0164v50na305rk30zznywp8nve
+  - program_id: prg_01m39775kyrwrd1p02ra1rynnz
     program_slug: llamagen-startup-program
     program_slug_aliases: []
     title: LlamaGen for Startups
@@ -26,8 +28,8 @@ programs:
     source_ids:
       - src_7967fc750d0e8033d98bd3570658c0e79f98b65460a6e2f93b60e2f20d6c5fdf
 offers:
-  - offer_id: off_012wwr5gh9tym29yfwej398h2b
-    program_id: prg_0164v50na305rk30zznywp8nve
+  - offer_id: off_01m39775ky1ds2fj454jngf8eq
+    program_id: prg_01m39775kyrwrd1p02ra1rynnz
     offer_slug: up-to-10000-comic-api-credits-12-months
     offer_slug_aliases: []
     title: Up to $10,000 in Comic API credits for 12 months
@@ -49,9 +51,9 @@ offers:
             kind: exact
             value: P12M
         - benefit_id: ben_02
-          description: Hands-on integration support
+          description: Hands-on integration support, with practical help moving from prototype to production
           kind: free-service
-          service: Practical help as you move from prototype to production
+          service: Integration support
       consideration:
         kind: none
     eligibility:
@@ -65,14 +67,14 @@ offers:
           - criterion_id: cri_02
             kind: manual
             reason: vendor-discretion
-            statement: A website, demo, prototype, or a clear build plan is enough.
+            statement: The team has a website, demo, prototype, or a clear build plan that LlamaGen can review.
           - criterion_id: cri_03
             kind: manual
             reason: vendor-discretion
             statement: LlamaGen will power a user-facing comic, illustration, or story workflow.
     roles:
-      terms_authority_entity_id: ent_01nt2f40apxve8zp9gdzdm4nec
-      access_operator_entity_id: ent_01nt2f40apxve8zp9gdzdm4nec
+      terms_authority_entity_id: ent_01m39775kyz6k4hxp6fqg7m395
+      access_operator_entity_id: ent_01m39775kyz6k4hxp6fqg7m395
     access:
       availability: public
       method: form
