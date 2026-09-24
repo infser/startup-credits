@@ -10,11 +10,13 @@ entity:
       valid_from: 2026-09-07T09:20:00.000Z
   category: design
 profile:
-  summary: Digital design and development studio for web, apps, branding, and marketing.
-  description: Level UI builds web, app, UI/UX, branding, marketing, and related digital services for companies that need design and development work.
+  summary: Level UI is a digital agency with offices in Bucharest and Berlin that builds custom websites, web apps, and digital platforms, with design, branding, and marketing services.
+  description: Level UI is a digital agency in Bucharest and Berlin building custom websites, web apps, and digital platforms, plus UI/UX, branding, and marketing work.
   links:
-    site: https://levelui.com
+    site: https://levelui.com/
 sources:
+  - source_id: src_3690a201cf1afd29ca9047d4f6376bf3d3bbd2d0113b976ad4c596b27191417a
+    url: https://levelui.com/
   - source_id: src_7a54c32b7375afb4412bc3b8d708aaa41bc7905855ac907dbf387dbf256c76a6
     url: https://levelui.com/promotions/startup-partner-discount
 programs:
@@ -38,15 +40,15 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 30% off any Level UI service or package on the company's first project
+          description: 30% off any service or package Level UI offers, applied once per company to its first project
           kind: discount
           percentage:
             kind: exact
             basis_points: 3000
-          applies_to: any Level UI service or package on the first project
+          applies_to: Any Level UI service or package, on the company's first project
       consideration:
         kind: variable
-        description: The company pays the remaining 70% of the selected service or package price after the discount is applied.
+        description: The company pays the discounted price for its first project; later work is billed at Level UI's standard pricing.
     eligibility:
       rule:
         kind: all
@@ -72,7 +74,7 @@ offers:
       access_operator_entity_id: ent_01m1xjt9mdzsev9576yzmyd59q
     access:
       availability: public
-      method: form
+      method: contact
       url: https://levelui.com/promotions/startup-partner-discount
       instructions: Mention that the company is under two years old when reaching out through the contact form, WhatsApp, or project wizard, and provide registration proof for verification.
     terms_url: https://levelui.com/promotions/startup-partner-discount
