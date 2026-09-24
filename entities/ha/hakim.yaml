@@ -10,12 +10,15 @@ entity:
       valid_from: 2026-09-02T10:48:00.000Z
   category: ai-ml
 profile:
+  summary: Hakim is an Arabic-first voice AI platform offering Arabic text-to-speech, speech-to-text, and voice cloning for developers, creators, and enterprises.
   description: Hakim is a voice AI platform for Arabic TTS, STT, and voice-cloning models, with workspace APIs for founders shipping production voice agents.
   links:
     site: https://tryhakim.ai
 sources:
   - source_id: src_d3dbc91bdd9831ce0a8591adeb49ea7f278a499b539aafe747a58ec69bab58f7
     url: https://tryhakim.ai/en/startups
+  - source_id: src_ca80e0d071e667ade9cc337903ed3644715c39653bc6a3654fd404b82ef00f4b
+    url: https://tryhakim.ai/en
 programs:
   - program_id: prg_01m1gw9wpsc5aqnzs68yq0fpjd
     program_slug: hakim-startup-program
@@ -57,7 +60,8 @@ offers:
           description: Co-marketing campaigns including joint case studies and launch announcements
           kind: other
       consideration:
-        kind: none
+        kind: unknown
+        description: The startup page does not establish separate consideration for the credit grant.
     eligibility:
       rule:
         kind: all
@@ -88,7 +92,7 @@ offers:
     access:
       availability: public
       method: form
-      instructions: Open the Hakim Startup Program page and complete the on-page application form. Hakim states a decision within 5 working days, then a technical kickoff before credits and Slack access go live.
+      instructions: Complete the application form on the Hakim Startup Program page. Hakim replies with a decision within 5 working days, then holds a 30-minute technical kickoff call before the benefits go live on the workspace.
       url: https://tryhakim.ai/en/startups
     terms_url: https://tryhakim.ai/en/startups
     source_ids:
