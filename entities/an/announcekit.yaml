@@ -8,8 +8,9 @@ entity:
     - value: announcekit.app
       role: primary
       valid_from: 2026-09-02T10:54:00.000Z
-  category: productivity
+  category: communication
 profile:
+  summary: AnnounceKit is a product communication platform for publishing changelogs and announcing product updates to users through in-app widgets, notifications, and other channels.
   description: AnnounceKit is a changelog, widget, and product-notification platform that helps product teams publish updates and announce new features to users.
   links:
     site: https://announcekit.app
@@ -87,17 +88,13 @@ offers:
             kind: manual
             reason: not-machine-evaluable
             statement: The applicant must be building a product with a live product or a product in active development.
-          - criterion_id: cri_05
-            kind: manual
-            reason: vendor-discretion
-            statement: AnnounceKit reviews applications and typically responds within about 2 business days.
     roles:
       terms_authority_entity_id: ent_01m1gw32jb01nc66p6as012vtb
       access_operator_entity_id: ent_01m1gw32jb01nc66p6as012vtb
     access:
       availability: public
       method: contact
-      instructions: Open the AnnounceKit Startup Program page and apply via the published email application route with company name, website, team size, and founding date. Vendor review typically takes about 2 business days.
+      instructions: Email AnnounceKit support, as described on the Startup Program page, with your company name, website, team size, and founding date. AnnounceKit reviews and responds within 2 business days, and once approved the 50% discount is applied automatically.
       url: https://announcekit.app/startup
     terms_url: https://announcekit.app/startup
     source_ids:
