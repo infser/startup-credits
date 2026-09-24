@@ -10,11 +10,13 @@ entity:
       valid_from: 2026-09-14T18:12:25.000Z
   category: crm-sales
 profile:
-  summary: Sales presentation platform for hotel brands, sales teams, and marketers.
-  description: Seidat is a sales presentation platform that helps hotel teams create, share, and track on-brand sales materials and immersive proposals.
+  summary: Seidat is a sales presentation platform for hotel sales and marketing teams to create, share, and track on-brand sales materials.
+  description: Seidat is a sales presentation platform that hotel sales and marketing teams use to create, share, and track on-brand presentations.
   links:
-    site: https://www.seidat.com
+    site: https://www.seidat.com/
 sources:
+  - source_id: src_514cd797e16b031f15900ceed5845eea43c20b43a9b4637d8ad7403abf607c99
+    url: https://www.seidat.com/
   - source_id: src_194500ee8b0c0c788fac599bdf5cf7c96341fd4443cbbb790add1b364fd4c95c
     url: https://www.seidat.com/startup-program/
 programs:
@@ -30,35 +32,35 @@ offers:
     program_id: prg_01m2ghxkf1r32dkzfat0faf0hk
     offer_slug: over-75-percent-off-seidat-three-years
     offer_slug_aliases: []
-    title: Over 75% Off Seidat Plans for Three Years
-    summary: Eligible new startups pay published Startup Core, Plus, or Pro prices for three years (for example Core at EUR 75/month plus EUR 5/user versus EUR 299/month base), averaging over 75% off the base fee.
+    title: Startup prices on Seidat plans for three years
+    summary: New Seidat clients founded within 5 years with under 2 million EUR turnover pay Startup Core, Plus, or Pro prices for three years, for example Core at 75 EUR a month plus 5 EUR per user instead of 299 EUR.
     lifecycle:
       status: active
       effective_from: 2026-09-14T18:12:25.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Average discount on the subscription base fee is over 75% for Startup Program clients during the first three years.
+          description: Startup Program prices for the first three years, with an average discount on the subscription base fee of over 75%
           duration:
             kind: exact
             value: P3Y
           kind: discount
           percentage:
             basis_points: 7500
-            kind: up-to
-          applies_to: Seidat subscription base fee on Startup Core, Plus, and Pro plans
+            kind: at-least
+          applies_to: Seidat subscription base fee on the Startup Core, Startup Plus, and Startup Pro plans
         - benefit_id: ben_02
-          description: Published Startup Core pricing of EUR 75/month plus EUR 5 per user (versus EUR 299/month base), billed monthly on an annual contract.
+          description: Startup Core at 75 EUR per month plus 5 EUR per user, instead of 299 EUR
           kind: other
         - benefit_id: ben_03
-          description: Published Startup Plus pricing of EUR 100/month plus EUR 7 per user (versus EUR 399/month base), billed monthly on an annual contract.
+          description: Startup Plus at 100 EUR per month plus 7 EUR per user, instead of 399 EUR
           kind: other
         - benefit_id: ben_04
-          description: Published Startup Pro pricing of EUR 175/month plus EUR 10 per user (versus EUR 699/month base), billed monthly on an annual contract.
+          description: Startup Pro at 175 EUR per month plus 10 EUR per user, instead of 699 EUR
           kind: other
       consideration:
         kind: variable
-        description: The startup pays the published Startup Program monthly prices on an annual contract for the first three years, then standard rates; prices exclude VAT.
+        description: The startup pays the Startup Program price, shown monthly on an annual contract charged every 12 months and excluding VAT. After three years the subscription continues at standard rates.
     eligibility:
       rule:
         kind: all
@@ -66,7 +68,7 @@ offers:
           - criterion_id: cri_01
             kind: manual
             reason: not-machine-evaluable
-            statement: Annual turnover is less than EUR 2 million.
+            statement: Annual turnover is less than 2 million EUR.
           - criterion_id: cri_02
             fact: company.age_months
             kind: predicate
@@ -89,7 +91,7 @@ offers:
     access:
       availability: public
       method: contact
-      instructions: Open the Seidat Startup Program page and use Contact Sales or the page contact form to apply.
+      instructions: Use Contact Sales on the Seidat Startup Program page to apply. A trial can start before the application is approved, and the startup price is applied after review.
       url: https://www.seidat.com/startup-program/
     terms_url: https://www.seidat.com/startup-program/
     source_ids:
