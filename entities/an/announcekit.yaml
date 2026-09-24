@@ -22,7 +22,7 @@ programs:
     program_slug: announcekit-startup-program
     program_slug_aliases: []
     title: AnnounceKit Startup Program
-    summary: AnnounceKit Startup Program gives eligible early-stage startups 50% off any AnnounceKit plan for their first 12 months, with all plan features included and no long-term commitment.
+    summary: AnnounceKit's Startup Program gives eligible early-stage startups 50% off any AnnounceKit plan for their first 12 months.
     source_ids:
       - src_2dd1d1ded02c7707499fce0f1c48f0e72fadaf7898a0e35f7cd504f1fb192f46
 offers:
@@ -31,14 +31,14 @@ offers:
     offer_slug: 50-percent-off-any-plan-12-months
     offer_slug_aliases: []
     title: 50% off any AnnounceKit plan for 12 months
-    summary: Eligible early-stage startups receive 50% off any AnnounceKit plan (Essentials, Growth, or Scale) for 12 months, with full features and no long-term commitment.
+    summary: Eligible early-stage startups receive 50% off any AnnounceKit plan, Essentials, Growth, or Scale, for their first 12 months.
     lifecycle:
       status: active
       effective_from: 2026-09-02T10:54:00.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 50% off any AnnounceKit plan for 12 months
+          description: 50% off any plan for 12 months
           kind: discount
           percentage:
             kind: exact
@@ -46,16 +46,9 @@ offers:
           duration:
             kind: exact
             value: P12M
-          applies_to: Any AnnounceKit plan (Essentials, Growth, or Scale)
-        - benefit_id: ben_02
-          description: All features of the chosen plan included with no feature restrictions
-          kind: other
-        - benefit_id: ben_03
-          description: No long-term commitment; cancel or switch plans anytime
-          kind: other
       consideration:
         kind: variable
-        description: The startup pays the remaining price of its selected AnnounceKit plan after the 50% startup discount for the first 12 months, then standard listed pricing.
+        description: The startup receives 50% off any AnnounceKit plan for its first 12 months.
     eligibility:
       rule:
         kind: all
